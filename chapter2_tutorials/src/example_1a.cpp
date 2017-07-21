@@ -13,7 +13,7 @@ int main(int argc, char **argv)
   {
     std_msgs::String msg;
     std::stringstream ss;
-    ss << " Hello World! from example1a node ";
+    ss << "Hello World!";
     msg.data = ss.str();
     pub.publish(msg);
     
