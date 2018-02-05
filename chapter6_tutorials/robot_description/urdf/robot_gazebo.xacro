@@ -28,7 +28,7 @@
    		</visual>
 		<xacro:default_inertial mass="0.0001"/>
  	</link>
- 	<xacro:include filename="$(find robot1_description)/urdf/robot.gazebo" />
+ 	<xacro:include filename="$(find robot_description)/urdf/robot.gazebo" />
  
 	<gazebo reference="base_footprint">
 		<material>Gazebo/Green</material>
@@ -220,7 +220,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot1_description/meshes/hokuyo.dae"/>
+        <mesh filename="package://robot_description/meshes/hokuyo.dae"/>
       </geometry>
     </visual>
 
